@@ -1,0 +1,56 @@
+/* Stili aggiuntivi per migliorare la presentazione del form */
+.container-contact {
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Applica gli stili alla sezione con ID contact-form-section e classe section-contact */
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px; /* Limita la larghezza massima per mantenere la dimensione dei componenti */
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Assicura che il form occupi tutta la larghezza del container */
+}
+
+#contact-form label {
+    margin-top: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Assicura che gli input e textarea occupino tutta la larghezza del form */
+    box-sizing: border-box; /* Include padding e border nella larghezza totale */
+}
+
+#contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 2em;
+    width: 100%; /* Assicura che il bottone occupi tutta la larghezza del form */
+    box-sizing: border-box; /* Include padding e border nella larghezza totale */
+    font-size: 1.2em;
+}
+
+#contact-form button:hover {
+    background-color: #45a049;
+}
