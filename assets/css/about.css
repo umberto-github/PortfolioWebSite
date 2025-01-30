@@ -5,6 +5,13 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
+.position-about{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
 .section-about {
     width: 80%;
     max-width: 800px;
@@ -16,6 +23,6 @@
     padding: 0;
 }
 
-.skill-aboutli {
+.skill-about li {
     margin: 5px 0;
 }
