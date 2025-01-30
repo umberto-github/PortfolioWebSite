@@ -1,21 +1,9 @@
-/* Stili aggiuntivi per migliorare la presentazione del form */
-.container-contact {
-    background-color: #d3d3d3;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.position-contact{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Applica gli stili alla sezione con ID contact-form-section e classe section-contact */
-.section-contact {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    max-width: 600px; /* Limita la larghezza massima per mantenere la dimensione dei componenti */
-}
 
 #contact-form {
     display: flex;
@@ -35,6 +23,12 @@
     border-radius: 5px;
     width: 100%; /* Assicura che gli input e textarea occupino tutta la larghezza del form */
     box-sizing: border-box; /* Include padding e border nella larghezza totale */
+
+    font-size: 16px; /* Puoi modificare questa dimensione come preferisci */
+    font-family: Arial, sans-serif; /* Puoi scegliere il font che preferisci */
+    line-height: 1.5; /* Questa proprietà migliora la leggibilità del testo */
+
+      
 }
 
 #contact-form button {

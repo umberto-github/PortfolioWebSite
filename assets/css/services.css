@@ -1,20 +1,3 @@
-/* Stili per il contenitore principale */
-.container-services { 
-    background-color: #d3d3d3;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-
-/* Stili per la sezione dei servizi */
-.section-services {
-    width: 100%; /* Assicurati che la sezione dei servizi occupi l'intera larghezza */
-    max-width: 800px;
-    margin: 20px 0;
-}
-
-
 .position-services{
     display: flex;
     justify-content: center;
