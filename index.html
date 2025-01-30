@@ -5,27 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Grid Layout</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <div class="grid-container">
         <header class="grid-item-header">
-            <img src="logo.png" alt="Logo">
+            <img src="assets/img/logo.png" alt="Logo">
             <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
+                <a id="home-link" href="">Home</a>
+                <a id="about-link" href="pages/about.html">About</a>
+                <a id="services-link" href="pages/services.html">Services</a>
+                <a id="contact-link" href="pages/contact.html">Contact</a>
             </nav>
             <button class="hamburger-btn">Click Me</button>
         </header>
-        <main class="grid-item-body">Body Content</main>
+        <main id="index-body" class="grid-item-body">Body Content</main>
         <footer class="grid-item-footer">Footer</footer>
     </div>
 
-
-    <script src="script.js"></script>
+    <script src="assets/js/navLinkScript.js"></script>
+    <script src="assets/js/hamburgerScript.js"></script>
 </body>
 
 </html>
