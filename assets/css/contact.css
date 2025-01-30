@@ -1,0 +1,50 @@
+.position-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Assicura che il form occupi tutta la larghezza del container */
+}
+
+#contact-form label {
+    margin-top: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Assicura che gli input e textarea occupino tutta la larghezza del form */
+    box-sizing: border-box; /* Include padding e border nella larghezza totale */
+
+    font-size: 16px; /* Puoi modificare questa dimensione come preferisci */
+    font-family: Arial, sans-serif; /* Puoi scegliere il font che preferisci */
+    line-height: 1.5; /* Questa proprietà migliora la leggibilità del testo */
+
+      
+}
+
+#contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 2em;
+    width: 100%; /* Assicura che il bottone occupi tutta la larghezza del form */
+    box-sizing: border-box; /* Include padding e border nella larghezza totale */
+    font-size: 1.2em;
+}
+
+#contact-form button:hover {
+    background-color: #45a049;
+}

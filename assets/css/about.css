@@ -1,0 +1,26 @@
+
+
+.position-about{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.section-content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.skills-list-about {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-about li {
+    margin: 5px 0;
+}
